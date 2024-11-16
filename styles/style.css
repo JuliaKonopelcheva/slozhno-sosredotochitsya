@@ -58,7 +58,6 @@
   grid-row-start: 3;
   grid-row-end: 3;
   grid-column-start: 2;
-  grid-column-end: 3;
   background-color: var(--accent-color, #ff0070);
   color: var(--font-accent-color, #000028);
   line-height: 130%;
