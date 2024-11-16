@@ -1,5 +1,73 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+/* Основные стили проекта. */
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--bg-color, #000028);
+  font-family: var(--main-font, 'IBM Plex Mono', sans-serif);
+  color: var(--font-color, #f1b2ce);
+  font-size: 18px;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 31.15vw auto 31.15vw;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header__theme-menu {
+  list-style: none;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.header__theme-menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.3vw;
+  padding-block-start: 1.8vw;
+}
+
+.header__theme-menu-button{
+  color: currentColor;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: transparent;
+  color: var(--accent-color, #ff0070);
+  text-transform: lowercase;
+  border: 1px solid transparent;
+}
+
+.heading {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: var(--header-color, #db00ff);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  line-height: 82.5%;
+  padding: 0;
+}
+
+.subtitle {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: var(--accent-color, #ff0070);
+  color: var(--font-accent-color, #000028);
+  line-height: 130%;
+  font-weight: 700;
+  display: inline;
+  justify-self: end;
+  align-self: center;
+  inline-size: clamp(364px, 100%, 491px);
+  margin-inline-end: 20px;
+
+
 }
