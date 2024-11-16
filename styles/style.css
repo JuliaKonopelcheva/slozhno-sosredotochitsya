@@ -6,12 +6,14 @@
   font-family: var(--main-font, 'IBM Plex Mono', sans-serif);
   color: var(--font-color, #f1b2ce);
   font-size: 18px;
+  
 }
 
 .header {
   display: grid;
   grid-template-rows: 31.15vw auto 31.15vw;
   grid-template-columns: 1fr 1fr;
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .header__theme-menu {
@@ -29,6 +31,7 @@
   justify-content: center;
   gap: 2.3vw;
   padding-block-start: 1.8vw;
+  margin-inline-start: 15px
 }
 
 .header__theme-menu-button{
@@ -51,7 +54,6 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 82.5%;
-  padding: 0;
 }
 
 .subtitle {
@@ -66,7 +68,8 @@
   justify-self: end;
   align-self: center;
   inline-size: clamp(364px, 100%, 491px);
-  margin-inline-end: 20px;
+  margin-inline-end: 1.95vw;
+  margin-block-end: 1.95vw;
 
 
 }
