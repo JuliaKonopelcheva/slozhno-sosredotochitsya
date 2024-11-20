@@ -233,7 +233,6 @@ h4.title-article {
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--shadow-color, #ff0070);
-  
 }
 
 /*Оформление ссылок */
