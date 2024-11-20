@@ -5,14 +5,15 @@
 */
 
   :root.theme-light {
-  --bg-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --header-color: #ffc2e6;
-  --main-font: 'IBM Plex Mono', sans-serif;
-  --font-color: #353430;
-  --font-accent-color: #353430;
-  --background-image: url("../images/cover-image-light.png");
-  --header__decor-display: none;
+    --bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --title-accent-color: #353430;
+    --header-color: #ffc2e6;
+    --main-font: 'IBM Plex Mono', sans-serif;
+    --font-color: #353430;
+    --font-accent-color: #353430;
+    --background-image: url("../images/cover-image-light.png");
+    --header__decor-display: none;
   }
 
 
@@ -20,6 +21,7 @@
   :root {
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
+  --title-accent-color: #353430;
   --header-color: #ffc2e6;
   --main-font: 'IBM Plex Mono', sans-serif;
   --font-color: #353430;
@@ -39,6 +41,7 @@
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --header-color: #ffc2e6;
+  --title-accent-color: #353430;
   --main-font: 'IBM Plex Mono', sans-serif;
   --font-color: #353430;
   --font-accent-color: #353430;

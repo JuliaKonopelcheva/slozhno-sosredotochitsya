@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__decor" aria-hidden="true"></div>
+      <span class="header__decor" aria-hidden="true"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -50,10 +50,10 @@
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
     </header>
     <main class="content">
-      <section class="section article-section">
+      <section class="section recommendations-section">
         <h2 class="title-section-name">Почему сосредоточиться так сложно</h2>
         <div class="section-content">
-          <article class="">
+          <article class="section-article">
             <h3 class="title-article title-decor">Многозадачность</h3>
             <p class="text-article">
               Особенно сложно сосредоточиться, когда задач много и все они —
@@ -72,7 +72,7 @@
               ошибаемся и быстро устаём.
             </p>
           </article>
-          <article>
+          <article class="section-article">
             <h3 class="title-article title-decor">Дофамин</h3>
             <p class="text-article">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -92,8 +92,8 @@
           Что снижает концентрацию внимания?
         </h2>
         <div class="section-content section-content-answers">
-          <article>
-            <h3 class="title-answers title-decor">Многозадачность</h3>
+          <article class="section-article">
+            <h3 class="title-article title-decor title-min-line">Многозадачность</h3>
             <p class="text-answers">
               Как концентрация может снижаться из-за… концентрации? Любая
               стрессовая ситуация (и резко меняющийся мир в целом) заставляет
@@ -103,8 +103,8 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article>
-            <h3 class="title-answers title-decor">Еда</h3>
+          <article class="section-article">
+            <h3 class="title-article title-decor title-min-line">Еда</h3>
             <p class="text-answers">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
               доставляют в мозг энергию и помогают ему лучше работать. Но уходит
@@ -114,8 +114,8 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article>
-            <h3 class="title-answers title-decor">Гаджеты</h3>
+          <article class="section-article">
+            <h3 class="title-article title-decor title-min-line">Гаджеты</h3>
             <p class="text-answers">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
               наушниках — подкаст, а на компьютере фоном — ещё и видео с
@@ -128,17 +128,17 @@
           </article>
           </div>
         </section>
-        <section class="section article-section recommendations-section">
+        <section class="section recommendations-section">
           <h2 class="title-section-name">
             Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
             секунд)
           </h2>
           <div class="section-content">
-            <h3 class="title-decor title-recommendations-section">
+            <h3 class="title-article title-decor">
               5 простых (на самом деле не очень) советов
             </h3>
-            <article>
-              <h4 class="title-recommendations title-decor">Представьте небо и облака</h4>
+            <article class="section-article">
+              <h4 class="title-article title-decor">Представьте небо и облака</h4>
               <p class="text-article">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
                 успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -150,8 +150,8 @@
                 проблемах из будущего.
               </p>
             </article>
-            <article>
-              <h4 class="title-recommendations title-decor">Включите музыку</h4>
+            <article class="section-article">
+              <h4 class="title-article title-decor">Включите музыку</h4>
               <p class="text-article">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -159,8 +159,8 @@
                 попробовать включить плейлист c «белым шумом» или нейромузыкой.
               </p>
             </article>
-            <article>
-              <h4 class="title-recommendations title-decor">Прогуляйтесь</h4>
+            <article class="section-article">
+              <h4 class="title-article title-decor title-min-line">Прогуляйтесь</h4>
               <p class="text-article">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a
@@ -175,8 +175,8 @@
                 простая двадцатиминутная прогулка — тоже отличный вариант.
               </p>
             </article>
-            <article>
-              <h4 class="title-recommendations title-decor">Хорошо ешьте</h4>
+            <article class="section-article">
+              <h4 class="title-article title-decor">Хорошо ешьте</h4>
               <p class="text-article">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
@@ -184,8 +184,8 @@
                 чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
               </p>
             </article>
-            <article>
-              <h4 class="title-recommendations title-decor">Читайте</h4>
+            <article class="section-article">
+              <h4 class="title-article title-decor title-min-line">Читайте</h4>
               <p class="text-article">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -195,8 +195,8 @@
             </article>
           </div>
         </section>
-      <section class="section section-gallery">
-        <h2 class="gallery-name title-decor">А можно в картинках?</h2>
+      <section class="section section-article section-gallery">
+        <h2 class="title-article title-decor title-min-line">А можно в картинках?</h2>
         <div class="gallery">
           <img
             src="./images/sunset.png"
