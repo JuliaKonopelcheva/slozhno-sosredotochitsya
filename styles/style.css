@@ -356,7 +356,7 @@ h4.title-article {
 
   .footer__title {
     font-size: clamp(7.5rem, 1.2328rem + 13.4058vw, 9.8125rem);
-  } 
+  }
 }
 
 @media (width >= 1024px) {
