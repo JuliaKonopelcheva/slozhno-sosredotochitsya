@@ -43,7 +43,7 @@
   height: 26px;
   border: 1px solid transparent;
   padding: 2px 13px 4px;
-  color: var(--accent-color, #ff0070);
+  color: var(--title-accent-color, #ff0070);
   font-family: var(--main-font, 'IBM Plex Mono', monospace);
   text-transform: lowercase;
   background-color: transparent;
@@ -140,13 +140,13 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--title-accent-color, #ff0070);
   outline: none;
   transition-duration: 0.2s;
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color, #ff0070);
+  border: 1px solid var(--title-accent-color, #ff0070);
   pointer-events: none;
 }
 
